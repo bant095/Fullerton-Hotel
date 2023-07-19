@@ -67,12 +67,29 @@ p {
   background: #f28500;
 }
 
+.btn-light {
+  background: #d9e7ff;
+  color: #0b1d51;
+}
+
+.bg-dark {
+  background: #0b1d51;
+  color: #fff;
+}
+
+.bg-primary {
+  color: #fff;
+  background: #f28500;
+}
+
 /* Navbar */
 #navbar {
   background: #0b1d51;
   color: #fff;
   /* padding: 30px 80px; */
   overflow: auto;
+  width: 100%;
+  position: fixed;
 }
 
 #navbar a {
@@ -135,4 +152,43 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 500px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url(../Images/resturant.jpg) no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  padding: 50px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* ============= */
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.boc i {
+  margin-bottom: 10px;
 }
