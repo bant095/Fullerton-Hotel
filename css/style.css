@@ -82,14 +82,25 @@ p {
   background: #f28500;
 }
 
+/* padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-2 {
+  padding: 30px 0;
+}
+
 /* Navbar */
 #navbar {
   background: #0b1d51;
   color: #fff;
   /* padding: 30px 80px; */
   overflow: auto;
-  width: 100%;
-  position: fixed;
+  /* width: 100%;
+  position: fixed; */
 }
 
 #navbar a {
@@ -189,6 +200,71 @@ p {
   text-align: center;
 }
 
-.boc i {
+.box i {
   margin-bottom: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* ============= */
+/* ABOUT SECTION */
+/* ================= */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding-top: 50px;
+}
+.about-head {
+  font-size: 30px;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: rgb(43, 42, 42);
+  color: #fff;
+  padding: 20px;
+}
+
+/* Testimonals section */
+
+#testimonals {
+  height: 600px;
+  background: url(../Images/pool.jpg) no-repeat center center/cover;
+  padding-top: 40px;
+}
+#testimonals .testimonal img {
+  width: 100px;
+  float: left;
+  object-position: contain;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+#testimonals h2 {
+  color: #0b1d51;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonals .testimonal {
+  padding: 20px;
+  margin-bottom: 40px;
 }
